@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font-mono {
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    background-color: #f8fafc; /* Slate 50 */
+    color: #1e293b; /* Slate 800 */
+}
+
+#hero #heroactions button {
+    font-size: 0.9rem;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../images/cosmis.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white !important;
+}
+
