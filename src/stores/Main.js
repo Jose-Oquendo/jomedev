@@ -27,7 +27,7 @@ export const useMainStore = defineStore('main', {
         document.getElementById('mobile-menu').classList.add('hidden');
     },
     async getProjects() {
-      let res = await fetch(`${this.urlBase}/src/content/data-projects.json`, {
+      let res = await fetch(`${this.urlBase}/content/data-projects.json`, {
         mode: 'cors',
         method: 'GET'
       })
@@ -38,7 +38,7 @@ export const useMainStore = defineStore('main', {
       return filtered;
     },
     async getSkills() {
-      let res = await fetch(`${this.urlBase}/src/content/data-skills.json`, {
+      let res = await fetch(`${this.urlBase}/content/data-skills.json`, {
         mode: 'cors',
         method: 'GET'
       })
