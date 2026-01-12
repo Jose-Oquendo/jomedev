@@ -1,0 +1,11 @@
+{
+    "areas": {
+        "Desarrollo Frontend": 30, 
+        "Lógica Backend": 35, 
+        "Arquitectura & Diseño": 20, 
+        "DevOps & Testing": 15
+    },
+    "frontend": ["VueJS", "React.js", "JavaScript", "Bootstrap", "Laravel", "Flask"],
+    "backend": ["PHP", "Node.js", "Symfony", "Python", "PostgreSQL", "Mysql"],
+    "tools": ["Jquery", "Chart.js", "Git / GitHub Actions", "Vite", "Composer"]
+}

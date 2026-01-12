@@ -1,0 +1,137 @@
+
+/* Chart Container Rules - Strictly Applied */
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    max-height: 400px;
+}
+@media (min-width: 768px) {
+    .chart-container {
+        height: 400px;
+    }
+}
+/* Custom Utilities for NO SVG Icons */
+.icon-lg { font-size: 2rem; line-height: 1; }
+.icon-md { font-size: 1.5rem; line-height: 1; }
+.icon-sm { font-size: 1.25rem; line-height: 1; }
+
+/* Modal Transitions */
+.modal-enter { opacity: 0; transform: scale(0.9); }
+.modal-enter-active { opacity: 1; transform: scale(1); transition: opacity 300ms, transform 300ms; }
+.modal-exit { opacity: 1; transform: scale(1); }
+.modal-exit-active { opacity: 0; transform: scale(0.9); transform: scale(0.9); transition: opacity 300ms, transform 300ms; }
+
+/* Timeline Horizontal Styling */
+.timeline-wrapper {
+    overflow-x: auto;
+    overflow-y: clip;
+    padding: 0rem 10rem 4rem; /* Espacio para la sombra */
+}
+.timeline-line {
+    position: relative;
+    height: 2px;
+    background-color: #94a3b8; /* Slate 400 */
+    margin-top: 8em; /* Espacio para los labels de arriba */
+    margin-bottom: 20px;
+}
+.timeline-point-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeline-dot {
+    width: 16px;
+    height: 16px;
+    background-color: #3b82f6; /* Blue 600 */
+    border: 4px solid #f8fafc; /* Slate 50 (fondo) */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.timeline-dot:hover {
+    transform: scale(1.3);
+    background-color: #1d4ed8; /* Blue 800 */
+}
+.timeline-label-top {
+    position: absolute;
+    bottom: 25px; /* Arriba del dot */
+    width: 100px; /* Ancho para el texto */
+    text-align: center;
+    font-weight: 600;
+    color: #1e293b;
+}
+.timeline-label-bottom {
+    position: absolute;
+    top: 25px; /* Abajo del dot */
+    width: 100px; /* Ancho para el texto */
+    text-align: center;
+    font-size: 0.75rem;
+    color: #64748b;
+}
+
+/* Tooltip (Mini-Descripción) */
+.timeline-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: -60px; /* Posicionado sobre el dot */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 12px;
+    background-color: #1e293b; /* Dark background */
+    color: #fff;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 20;
+    pointer-events: none; /* No bloquear clicks */
+}
+.timeline-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1e293b transparent transparent transparent;
+}
+.timeline-dot:hover + .timeline-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+    /* --- ESTILOS DE BARRA DE DESPLAZAMIENTO PERSONALIZADOS (Añadidos) --- */
+/* Aplicar a todos los elementos con scroll (ej: .timeline-wrapper) */
+
+/* El ancho/alto de la barra de desplazamiento */
+.scrollable::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* El 'track' o riel (la parte por donde se mueve el control) */
+.scrollable::-webkit-scrollbar-track {
+    background: #e0f2fe; /* Azul muy claro (similar al bg-blue-100) */
+    border-radius: 10px;
+}
+
+/* El 'thumb' o control deslizante */
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #06b6d4; /* Cian vibrante */
+    border-radius: 10px;
+    border: 2px solid #e0f2fe; /* Borde interior del color del track para hacerlo más delgado */
+}
+
+/* Efecto al pasar el ratón */
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background-color: #0e7490; /* Cian oscuro al hacer hover */
+}

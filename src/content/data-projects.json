@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Kaidesk",
+            "role": "Programador de sistemas",
+            "category": "frontend",
+            "tags": [
+                "VueJs",
+                "PHP",
+                "PostgreSQL",
+                "Microservicios"
+            ],
+            "problem": "Se desea tener un portal de acceso para diferentes modulos desarrollados, en el cual se puedan acceder a travez de un menu.",
+            "solution": "Diseñé una arquitectura de microservicios con componentes de Symfony y VueJS. Se agrego perfiles de usuario, administracion de cuentas y configuracion del menu.",
+            "links": { 
+                "code": "#", 
+                "live": "#"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Supellex Home",
+            "role": "Programador junior",
+            "category": "frontend",
+            "tags": [
+                "PHP",
+                "Laravel",
+                "MySQL"
+            ],
+            "problem": "Se propone el desarrollo de una plataforma web comercial en el cual recibir ordenes y PQRS de clientes para una tienda de muebles.",
+            "solution": "Para este proyecto de prueba se desarrollo un sistema con busqueda de catalogo de productos y creacion de pedidos, ademas de un panel administrador en el cual configurar usuarios, gestionar invetario y visualziar pedidos.",
+            "links": { 
+                "code": "#", 
+                "live": "#"
+            }
+        },
+        {
+            "id": 3,
+            "title": "ValidMail",
+            "role": "Programador de sistemas",
+            "category": "backend",
+            "tags": [
+                "API"
+            ],
+            "problem": "Integrar la API de Hunter.io para validacion de correos electronicos.",
+            "solution": "Se desarrollo una API con distintos endpoints para validacion de estructuray verificacion de la existencia del correo electronico ",
+            "links": { 
+                "code": "#", 
+                "live": "#"
+            }
+        },
+        {
+            "id": 4,
+            "title": "php-service",
+            "role": "Programador de sistemas",
+            "category": "backend",
+            "tags": [
+                "PHP",
+                "Symfony",
+                "API"
+            ],
+            "problem": "Crear una estructura para desarrollar API de forma sencilla segun requerimientos.",
+            "solution": "Se desarrollo una estructura en PHP con componentes de Symfony para la creacion de API's, con generacion de tokens y validaciones de seguridad.",
+            "links": { 
+                "code": "#", 
+                "live": "#"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Kairos",
+            "role": "Programador de sistemas",
+            "category": "frontend",
+            "tags": [
+                "PHP",
+                "VueJs",
+                "PostgreSQL"
+            ],
+            "problem": "Crear un sistema para gestion de PQRS, en el que se puedan subir fotos y escribir detalles.",
+            "solution": "Se desarrollo una plataforma web para la creacion de solicitudes, generacion de informes PDF y seguimiento al estado y reportes de la solicitud. Ademas de un panel de metricas para los moviemientos en la plataforma",
+            "links": { 
+                "code": "#", 
+                "live": "#"
+            }
+        }
+    ]
+}
