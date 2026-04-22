@@ -47,6 +47,16 @@ export const useMainStore = defineStore('main', {
       this.skills = res;
       return this.skills;
     },
+    async getCV() {
+      let res = await fetch(`${this.urlBase}/content/docs/juan-jose-oquendo-medina-cv.pdf`, {
+        mode: 'cors',
+        method: 'GET'
+      })
+      res = await res.blob();
+      this.cv = URL.createObjectURL(res);
+      window.open(this.cv, '_blank');
+      return this.cv;
+    },
     async initCharts() {
       // Asegúrate de que el script de Chart.js se cargó antes de intentar usarlo
       if (typeof Chart === 'undefined') {

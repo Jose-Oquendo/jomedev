@@ -54,23 +54,26 @@ function handleContact(e) {
       </div>
       <div class="prose prose-lg text-slate-600 mx-auto">
         <p class="mb-6">
-          Soy un desarrollador apasionado por el código limpio y la arquitectura de software eficiente. Mi filosofía se
-          basa en el principio de que <strong>"la mejor línea de código es la que no se tiene que mantener"</strong>,
-          priorizando soluciones simples y robustas sobre la complejidad innecesaria.
+          Soy un desarrollador apasionado por la innovacion, la mejora continua y la implementacion de nuevas tecnologias
+          para resolver problemas complejos. Me gusta crear soluciones eficientes y escalables que satisfagan las necesidades
+          de los usuarios y de las empresas, aportando valor a los procesos de las personas mas alla de un compromiso laboral. 
+          Me gusta trabajar en entornos dinamicos donde pueda aprender y crecer profesionalmente, y donde pueda aportar mis conocimientos 
+          y habilidades para contribuir al exito del equipo.
         </p>
         <p class="mb-6">
-          Comencé mi carrera resolviendo pequeños problemas de automatización y rápidamente me enamoré de la capacidad
-          de crear productos completos desde cero. Hoy en día, disfruto tanto diseñando una base de datos normalizada
-          como ajustando las animaciones CSS para una experiencia de usuario perfecta.
+          Comencé mi carrera solucionando problemas de automatización y soporte a usuarios, gestionando directamente bases de datos
+          y sistemas de información, lo que me permitió desarrollar una sólida comprensión de los procesos de negocio y
+          la importancia de la calidad de los datos. Hoy en día, disfruto tanto diseñando bases de datos como ajustando
+          plantillas y diseño de interfaces con CSS, eso me ha definido como desarrollar fullstack con un enfoque en 
+          la experiencia de usuario.
         </p>
         <div class="bg-sky-50 border-l-4 border-sky-500 p-4 my-8">
           <p class="font-bold text-sky-900">Filosofía de Trabajo:</p>
-          <p class="italic text-sky-800">"Iterar rápido, probar todo, y poner al usuario en el centro de cada decisión
-            técnica."</p>
+          <p class="italic text-sky-800">"La tecnología debe ser una herramienta para mejorar la vida de las personas, no un fin en sí misma."</p>
         </div>
         <p>
-          Cuando no estoy programando, me encontrarás contribuyendo a proyectos Open Source, escribiendo en mi blog
-          técnico, o disfrutando de una buena taza de café mientras aprendo sobre nuevos paradigmas de programación.
+          Cuando no estoy programando, me gusta investigar sobre nuevas tecnologias, aprender sobre procesos de ingenieria y
+          computacion y estudiar herramientas que mejoran mi trabajo, mientras disfruto de una buena taza de café.
         </p>
       </div>
     </div>
@@ -92,11 +95,13 @@ function handleContact(e) {
             </div>
             <div class="flex items-center text-slate-300">
               <span class="icon-md mr-4">📍</span>
-              <span>Pereira, Colombia (Remoto)</span>
+              <span>Pereira, Colombia</span>
             </div>
           </div>
         </div>
+
         <div class="bg-slate-800 p-8 rounded-2xl shadow-xl">
+          <!--
           <form onsubmit="handleContact(event)" class="space-y-6">
             <div>
               <label for="name" class="block text-sm font-medium text-slate-300">Nombre</label>
@@ -121,6 +126,11 @@ function handleContact(e) {
               Enviar Mensaje 🚀
             </button>
           </form>
+          -->
+          <a href="mailto:oquendojuanjose@gmail.com" 
+            class="w-full inline-block text-center bg-sky-600 text-white font-bold py-3 px-4 rounded-md hover:bg-sky-700 transition-colors shadow-lg">
+            Mandar un correo 📧
+          </a>
         </div>
       </div>
     </div>

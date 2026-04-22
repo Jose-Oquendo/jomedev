@@ -24,9 +24,9 @@ const main = useMainStore();
           <!-- Item 1: Junior Role -->
           <div class="timeline-point-container" style="left: 5%;">
             <div class="timeline-label-top">Programador Junior</div>
-            <div class="timeline-dot" data-description="Primeros pasos en desarrollo web (WordPress, JS Vanilla).">
+            <div class="timeline-dot" data-description="Desarrollador y soporte de sistema ERP.">
             </div>
-            <div class="timeline-tooltip">Primeros pasos en desarrollo web (WordPress, JS Vanilla).</div>
+            <div class="timeline-tooltip">Desarrollador y soporte de sistema ERP.</div>
             <div class="timeline-label-bottom text-sm font-mono">2022 - 2023</div>
           </div>
 
@@ -34,8 +34,8 @@ const main = useMainStore();
           <div class="timeline-point-container" style="left: 35%;">
             <div class="timeline-label-top">Programador de sistemas</div>
             <div class="timeline-dot"
-              data-description="Construcción de plataforma Fintech con React y Node. Mejora de rendimiento UI."></div>
-            <div class="timeline-tooltip">Construcción de plataforma Fintech con React y Node. Mejora de rendimiento UI.
+              data-description="Desarrollador de software, cordinador y soporte de sistema ERP."></div>
+            <div class="timeline-tooltip">Desarrollador de software, cordinador y soporte de sistema ERP.
             </div>
             <div class="timeline-label-bottom text-sm font-mono">2023 - 2025</div>
           </div>
@@ -44,8 +44,8 @@ const main = useMainStore();
           <div class="timeline-point-container" style="left: 65%;">
             <div class="timeline-label-top">Ingeniero de desarrollo</div>
             <div class="timeline-dot"
-              data-description="Líder de migración a Serverless (AWS). Optimización CI/CD y mentoría."></div>
-            <div class="timeline-tooltip">Líder de migración a Serverless (AWS). Optimización CI/CD y mentoría.</div>
+              data-description="Desarrollador de software a la medida, soporte e innovacion de sistemas."></div>
+            <div class="timeline-tooltip">Desarrollador de software a la medida, soporte e innovacion de sistemas.</div>
             <div class="timeline-label-bottom text-sm font-mono">2025 - Presente</div>
           </div>
         </div>
